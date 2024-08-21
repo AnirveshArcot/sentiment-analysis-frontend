@@ -1,5 +1,7 @@
+import { VITE_API_URL } from "../setupEnv";
+
 export const analyzeSentiment = async (sentence) => {
-    const apiUrl = import.meta.env.VITE_API_URL;
+    const apiUrl = VITE_API_URL;
     console.log(apiUrl)
     const response = await fetch(`${apiUrl}/analyze/`, {
       method: 'POST',

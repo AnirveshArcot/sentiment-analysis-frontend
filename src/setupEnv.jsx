@@ -1,0 +1,1 @@
+export const VITE_API_URL = "https://sentiment-analysis-backend-tb6o.onrender.com";
