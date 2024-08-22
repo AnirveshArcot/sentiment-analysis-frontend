@@ -1,1 +1,1 @@
-export const VITE_API_URL = "https://sentiment-analysis-backend-tb6o.onrender.com";
+export const VITE_API_URL = " https://a5ac-2401-4900-9006-2819-b128-f93a-5d68-4604.ngrok-free.app";
